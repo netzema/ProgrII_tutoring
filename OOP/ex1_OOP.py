@@ -1,4 +1,4 @@
-# %% -------------------- OOP - Stock Market Theme --------------------
+# %% -------------------- Session 2: OOP - Stock Market Theme --------------------
 '''
 1) Create a Stock class that has properties for the stock symbol, current price, and the date of the last trade. Write methods to get and set these properties.
 

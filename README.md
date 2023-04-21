@@ -4,3 +4,4 @@ A repository to keep track of the exercises done during the tutoring classes for
 1) Object-Oriented Programming
 2) Aceesing APIs and creating API server-client architecture
 3) Software testing using pytest
+4) Sockets

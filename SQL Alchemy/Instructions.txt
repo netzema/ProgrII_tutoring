@@ -1,0 +1,25 @@
+Exercise 1: Setting up a Database Connection
+
+Create a new SQLite database using SQLAlchemy.
+Define a class called User that represents a table in the database with columns for id, name, and email.
+Establish a connection to the database and create the table User if it does not exist.
+Exercise 2: Inserting and Querying Data
+
+Insert a few sample User objects into the database.
+Write a query to retrieve all users from the database.
+Write a query to retrieve users whose names start with the letter 'J'.
+Exercise 3: Updating and Deleting Data
+
+Update the email address of a specific user in the database.
+Delete a user from the database.
+Exercise 4: Relationships and Joins
+
+Define a new class called Post that represents a table in the database with columns for id, title, content, and user_id.
+Establish a relationship between the User and Post classes, where one user can have multiple posts.
+Insert a few sample Post objects into the database for a specific user.
+Write a query to retrieve all posts by a given user.
+Exercise 5: Advanced Queries
+
+Write a query to retrieve the users with the highest number of posts.
+Write a query to retrieve the count of posts for each user.
+Write a query to retrieve the users who have a post with a specific keyword in the title.

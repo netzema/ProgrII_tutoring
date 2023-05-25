@@ -3,23 +3,62 @@ Exercise 1: Setting up a Database Connection
 Create a new SQLite database using SQLAlchemy.
 Define a class called User that represents a table in the database with columns for id, name, and email.
 Establish a connection to the database and create the table User if it does not exist.
+
 Exercise 2: Inserting and Querying Data
 
 Insert a few sample User objects into the database.
 Write a query to retrieve all users from the database.
 Write a query to retrieve users whose names start with the letter 'J'.
+
 Exercise 3: Updating and Deleting Data
 
 Update the email address of a specific user in the database.
 Delete a user from the database.
+
 Exercise 4: Relationships and Joins
 
 Define a new class called Post that represents a table in the database with columns for id, title, content, and user_id.
 Establish a relationship between the User and Post classes, where one user can have multiple posts.
 Insert a few sample Post objects into the database for a specific user.
 Write a query to retrieve all posts by a given user.
+
 Exercise 5: Advanced Queries
 
 Write a query to retrieve the users with the highest number of posts.
 Write a query to retrieve the count of posts for each user.
 Write a query to retrieve the users who have a post with a specific keyword in the title.
+
+Additional Exercises:
+Exercise 6: Relationship Operations
+
+Define a new class called Address that represents a table in the database with columns for id, street, city, and user_id.
+Establish a relationship between the User and Address classes, where one user can have multiple addresses.
+Insert sample Address objects for a specific user.
+Query a user and retrieve all their addresses.
+
+Exercise 7: Aggregation and Grouping
+
+Write a query to calculate the total number of users in the database.
+Write a query to find the user(s) with the maximum number of addresses.
+
+Exercise 8: Sorting and Limiting Results
+
+Write a query to retrieve the top 5 users with the highest user IDs.
+Retrieve users in alphabetical order by their names.
+Retrieve the youngest user based on their birthdate.
+
+Exercise 9: Filtering and Conditional Queries
+
+Write a query to retrieve users whose names contain the letter 'a'.
+Retrieve users who have at least two addresses.
+Retrieve users born between a specific range of dates.
+
+Exercise 10: Updating and Deleting Records
+
+Update the street name of a specific address.
+Delete an address from the database.
+
+Exercise 11: Advanced Joins
+
+Write a query to retrieve users and their corresponding addresses using an explicit join.
+Retrieve users who have at least one address in a specific city.

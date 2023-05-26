@@ -62,7 +62,7 @@ class Post(Base):
     user = relationship('User', backref='posts')
 
 # Create the table if it doesn't exist
-Base.metadata.create_all(engine)
+Post.metadata.create_all(engine)
 
 # Insert sample Post objects for a user
 post1 = Post(title='Post 1', content='Content 1', user=user1)

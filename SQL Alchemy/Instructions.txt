@@ -1,7 +1,7 @@
 Exercise 1: Setting up a Database Connection
 
 Create a new SQLite database using SQLAlchemy.
-Define a class called User that represents a table in the database with columns for id, name, and email.
+Define a class called User that represents a table in the database with columns for id, name, and email, date of birth.
 Establish a connection to the database and create the table User if it does not exist.
 
 Exercise 2: Inserting and Querying Data
